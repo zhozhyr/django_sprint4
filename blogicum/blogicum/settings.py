@@ -141,4 +141,3 @@ CSRF_FAILURE_VIEW = 'pages.views.page_csrf_forbidden'
 EMAIL_BACKEND = "django.core.mail.backends.filebased.EmailBackend"
 
 EMAIL_FILE_PATH = BASE_DIR / 'sent_emails'
-
