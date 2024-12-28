@@ -100,7 +100,6 @@ class Post(AbstractBaseModel):
         verbose_name = "публикация"
         verbose_name_plural = "Публикации"
 
-
     def __str__(self):
         return self.title
 
